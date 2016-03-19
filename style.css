@@ -32,7 +32,8 @@ li.station,
   text-decoration: none;
 }
 #cities a:hover {
-  text-decoration: underline;
+  color: black;
+  background-color: white;
 }
 span.dist {
   font-size: 50%;
