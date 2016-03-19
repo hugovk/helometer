@@ -1,0 +1,48 @@
+html {
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+}
+html, body {
+  background: black;
+  color: white;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1, h2 {
+  font-weight: normal;
+}
+h1 {
+  font-size: 750%;
+  width: 100%;
+}
+h2 {
+  font-size: x-large;
+}
+ul {
+  list-style-type: none;
+}
+li.station,
+#cities {
+  font-size: 750%;
+}
+#cities a {
+  color: white;
+  text-decoration: none;
+}
+#cities a:hover {
+  text-decoration: underline;
+}
+span.dist {
+  font-size: 50%;
+}
+#textfill-container {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

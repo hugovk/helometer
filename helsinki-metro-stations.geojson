@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          24.914444,
+          60.163056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Ruoholahti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.931944,
+          60.168889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kamppi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.940556,
+          60.170556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rautatientori"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.9475,
+          60.172222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Helsingin yliopisto"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.950556,
+          60.18
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Hakaniemi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.961111,
+          60.1875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "S\u00f6rn\u00e4inen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.976944,
+          60.1875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kalasatama"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.008056,
+          60.188889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kulosaari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.030833,
+          60.195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Herttoniemi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.043611,
+          60.205278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Siilitie"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.078056,
+          60.210278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "It\u00e4keskus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.075556,
+          60.225
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Myllypuro"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.093056,
+          60.214722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Puotila"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.083611,
+          60.236111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Kontula"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.121389,
+          60.205278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Rastila"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.110833,
+          60.239167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Mellunm\u00e4ki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.142222,
+          60.207222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Vuosaari"
+      },
+      "type": "Feature"
+    }
+  ]
+}
