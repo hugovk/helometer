@@ -1,26 +1,26 @@
 .slots {
-  display: flex;
+  display: block;
   margin: 0 auto;
   padding-bottom: 50px;
-  width: 90%;
+  width: 95%;
 }
 .city-bike-column:first-child {
-  padding-left: 0;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
+  padding-left: 0;
 }
 .city-bike-column:last-child {
-  padding-right: 0;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  padding-right: 0;
 }
 .city-bike-column {
-  height: 8px;
   background: #ddd;
   background-clip: content-box;
+  display: inline-block;
+  height: 8px;
   padding-left: 1px;
   padding-right: 1px;
-  float: left;
 }
 .city-bike-column.available {
   background: #fbb800;

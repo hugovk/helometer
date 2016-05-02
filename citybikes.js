@@ -70,8 +70,9 @@ function ShowClosest(loc) {
       $.each(data.stations, function(key, val) {
 
         var totalSlots = val.bikesAvailable + val.spacesAvailable;
-        var slotWidth = 100/totalSlots;
+        var slotWidth = (100/totalSlots)-1;
         var slotDivStart = '<div style="width:' + slotWidth + '%" class="city-bike-column';
+//         var slotDivStart = '<div class="city-bike-column';
         var slotDivEnd = '"></div>';
         var slots = '';
 
