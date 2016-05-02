@@ -68,15 +68,29 @@ function ShowClosest(loc) {
 
       // Update list
       $.each(data.stations, function(key, val) {
+
+        var totalSlots = val.bikesAvailable + val.spacesAvailable;
+        var slotWidth = 100/totalSlots;
+        var slotDivStart = '<div style="width:' + slotWidth + '%" class="city-bike-column';
+        var slotDivEnd = '"></div>';
+        var slots = '';
+
+        for (i = 0; i < val.bikesAvailable; i++) {
+         slots += slotDivStart + ' available' + slotDivEnd;
+        }
+        for (i = 0; i < val.spacesAvailable; i++) {
+         slots += slotDivStart + slotDivEnd;
+        }
+
         $('#metro-list').append(
           $('<li class="station">').append(
             // '<span class="dist">' + val.id + '</span>' +
             '&nbsp;' + val.name +
             ' <span class="dist">' +
             numberWithSpaces(val.distance) + '&nbsp;m' +
-            '<br>bikes:&nbsp' + val.bikesAvailable +
-            ' spaces:&nbsp' + val.spacesAvailable +
-            '</span>'));
+            ' ' + val.bikesAvailable + '/' + totalSlots + '</span>' +
+            '<div class="slots">' + slots + '</div>'
+            ));
       });
 
     }});
