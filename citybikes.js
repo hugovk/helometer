@@ -1,3 +1,9 @@
+function getURLParameter(name) {
+  return decodeURI(
+    (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+  );
+}
+
 function distanceBetweenLocAndStation(loc, station) {
   return getDistanceFromLatLonInMetres(
     loc.coords.latitude,
@@ -80,8 +86,19 @@ $(document).ready(function() {
           $('<li class="station">').append(val.name));
       });
 
-      // Boot up the satellites
-      if (geoPosition.init()) {
+      // Do we have lat/lon parameters?
+      if (getURLParameter("lat") !== "null" &&
+          getURLParameter("lon") !== "null" ) {
+        var loc = {
+          coords: {
+            latitude: getURLParameter("lat"),
+            longitude: getURLParameter("lon")
+          }
+        }
+        ShowClosest(loc);
+      }
+      // Otherwise boot up the satellites
+      else if (geoPosition.init()) {
         $("#live-geolocation").html('Checking...');
         lookupLocation();
       } else {
