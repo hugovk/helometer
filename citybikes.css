@@ -21,6 +21,7 @@
   height: 8px;
   padding-left: 1px;
   padding-right: 1px;
+  width: 2%;
 }
 .city-bike-column.available {
   background: #fbb800;
