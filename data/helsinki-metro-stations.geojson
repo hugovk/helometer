@@ -4,6 +4,110 @@
     {
       "geometry": {
         "coordinates": [
+          24.738333,
+          60.159444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Matinkylä"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.763333,
+          60.170556
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Niittykumpu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.7803,
+          60.1748
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Urheilupuisto"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.803333,
+          60.175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Tapiola"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.825055,
+          60.1847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Aalto-yliopisto"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8295,
+          60.1758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Keilaniemi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.8542,
+          60.1636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Koivusaari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.878667,
+          60.159333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "name": "Lauttasaari"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           24.914444,
           60.163056
         ],
@@ -75,7 +179,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "S\u00f6rn\u00e4inen"
+        "name": "Sörnäinen"
       },
       "type": "Feature"
     },
@@ -140,7 +244,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "It\u00e4keskus"
+        "name": "Itäkeskus"
       },
       "type": "Feature"
     },
@@ -205,7 +309,7 @@
         "type": "Point"
       },
       "properties": {
-        "name": "Mellunm\u00e4ki"
+        "name": "Mellunmäki"
       },
       "type": "Feature"
     },
