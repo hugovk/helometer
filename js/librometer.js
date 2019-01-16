@@ -1,5 +1,6 @@
 async function ShowClosest(loc) {
 
+  // API docs: https://api.kirjastot.fi/#libraries
   const URL = 'https://api.kirjastot.fi/v4/library?status=open&geo.pos=' + loc.coords.latitude + ',' + loc.coords.longitude;
   console.log(URL)
 
