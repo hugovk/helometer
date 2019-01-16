@@ -16,7 +16,7 @@ async function ShowClosest(loc) {
   $.each(libraries, function (key, val) {
     console.log(val)
     $('#metro-list').append(
-      $('<li class="station">').append(val.name + ' <span class="dist">' + numberWithSpaces(val.distance * 1000) + '&nbsp;m</span>'));
+      $('<li class="station">').append('<a href="https://www.google.fi/search?q=' + val.name + '">' + val.name + '</a> <span class="dist">' + numberWithSpaces(val.distance * 1000) + '&nbsp;m</span>'));
   });
 
 }

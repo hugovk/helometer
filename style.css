@@ -28,11 +28,11 @@ li.station,
 #cities {
   font-size: 750%;
 }
-#cities a {
+a {
   color: white;
   text-decoration: none;
 }
-#cities a:hover {
+a:hover {
   color: black;
   background-color: white;
 }
