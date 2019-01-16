@@ -18,4 +18,8 @@ $ python2 -m SimpleHTTPServer 8060
 
 ```
 
-Then visit http://localhost:8060/
+Then to allow geoposition to work in a non-HTTPS browser:
+
+```bash
+/usr/bin/open -n "/Applications/Google Chrome.app" --args "http://0.0.0.0:8060" --unsafely-treat-insecure-origin-as-secure="http://0.0.0.0:8060" --user-data-dir=/tmp/testprofile
+```
